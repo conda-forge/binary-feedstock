@@ -1,13 +1,13 @@
 {% set name = "binary" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/binary-{{ version }}.tar.gz
-  sha256: 6ec010e58f7331ebc8bc9638dbe6c66d635de60d5818b0723bef4dead0ec28a6
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/binary-{{ version }}.tar.gz
+  sha256: 55c6ad4f6b488e2ebbc0a85e5e50a9f51a0284e99870c90aaf4be77ef33b77d1
 
 build:
   noarch: python

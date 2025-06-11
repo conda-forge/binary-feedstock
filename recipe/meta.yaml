@@ -1,5 +1,5 @@
 {% set name = "binary" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/binary-{{ version }}.tar.gz
-  sha256: 55c6ad4f6b488e2ebbc0a85e5e50a9f51a0284e99870c90aaf4be77ef33b77d1
+  sha256: a6ba0af9579098b18dd2ec0b08bd409d8a5c4e5e5a301104b053ad40137264a8
 
 build:
   noarch: python
